@@ -15,7 +15,7 @@ import Figma from '../../../public/icons/figma.svg'
 
 const About = () => {
   return (
-    <div id='about' className='flex flex-col items-center px-3 md:px-[20px] lg:px-[50px] py-[40px] md:py-[60px] lg:py-[80px] xl:py-[100px]'>
+    <div id='about' className='flex flex-col items-center px-3 md:px-[20px] lg:px-[50px] py-[60px] md:py-[70px] lg:py-[80px] xl:py-[100px]'>
       <h1 className='text-center text-[36px] md:text-[48px] lg:text-[60px] xl:text-[72px] mb-8 md:mb-12 lg:mb-20'>Meet Me</h1>
       <div className='grid grid-cols-1 lg:grid-cols-3 items-center justify-between text-xs lg:text-sm'>
         <div className='w-full'>

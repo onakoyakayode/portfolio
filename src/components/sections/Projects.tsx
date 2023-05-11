@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Projects = () => {
   return (
-    <div id='project' className='flex flex-col items-center py-[40px] md:py-[60px] lg:py-[80px] xl:py-[100px]'>
+    <div id='project' className='flex flex-col items-center py-[60px] md:py-[70px] lg:py-[80px] xl:py-[100px]'>
       <h1 className='text-center text-[36px] md:text-[48px] lg:text-[60px] xl:text-[72px] mb-8 md:mb-12 lg:mb-20'>Projects</h1>
         {Project.map((project) => 
             <div key={project.id} className='flex flex-col justify-start items-center w-full'>

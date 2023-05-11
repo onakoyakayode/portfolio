@@ -41,13 +41,12 @@ export default function Home() {
     {welcomeScreen && <main className='h-screen p-10 flex flex-col justify-between items-center'>
       <div></div>
       <div>
-        <h1 className='text-2xl md:text-4xl lg:text-7xl'>
+        <h1 className='text-[14px] md:text-[22px] lg:text-[40px] text-center'>
           Welcome to my portfolio
-
         </h1>
       </div>
       <div>
-        {/* <CountUp end={100}/>% */}
+    
       </div>
     </main>}
     </>

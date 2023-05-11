@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='flex items-end justify-between w-full px-3 md:px-[20px] lg:px-[50px]'>
         <div className='flex flex-col items-start gap-6 md:gap-10'>
             <h1 className="text-[20px] md:text-[24px] lg:text-[30px]">LET&apos;S CONNECT</h1>
-            <ul className='flex items-center gap-3 md:gap-5 text-[#8492a6]'>
+            <ul className=' flex flex-col items-start md:flex md:items-center gap-3 md:gap-5 text-[#8492a6]'>
                 <Link target='_blank' className='cursor-pointer text-[12px] md:text-[14px] lg:text-[15px] hover:text-[#25D366] ease-in-out duration-150' href='https://wa.link/0k4ks7'>Whatsapp</Link>
                 <Link target='_blank' className='cursor-pointer text-[12px] md:text-[14px] lg:text-[15px] hover:text-[#1DA1F2] ease-in-out duration-150' href='https://twitter.com/kayodeonakoya26'>Twitter</Link>
                 <Link target='_blank' className='cursor-pointer text-[12px] md:text-[14px] lg:text-[15px] hover:text-[#cc2366] ease-in-out duration-150' href='https://www.instagram.com/onakoya_kayode'>Instagram</Link>

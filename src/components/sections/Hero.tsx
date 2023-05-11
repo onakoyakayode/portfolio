@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import OnlinePredictionIcon from '@mui/icons-material/OnlinePrediction';
 import FilterAltOffIcon from '@mui/icons-material/FilterAltOff';
 
@@ -32,11 +32,12 @@ const Hero = () => {
         <div></div>
         <div className='flex flex-col justify-center'>
             <h1 className='animate__animated animate__fadeInLeft flex flex-col items-center text-[6rem] leading-[5rem] md:text-[8rem] md:leading-[7rem] lg:text-[9rem] lg:leading-[8rem] xl:text-[12rem] xl:leading-[10rem]'>2604<span>Dev.</span></h1>
-            <Typed
+            {/* <Typed
             strings={['Frontend Developer, Frontend Engineer']}
             className='text-center text-[11px] md:text-[13px] mt-3'
             typeSpeed={40}
-            />
+            /> */}
+            <p className='text-center text-[11px] md:text-[13px] mt-3'>Frontend Developer, Frontend Engineer</p>
         </div>
         <div className='flex justify-between items-center h-[7vh] md:h-[9vh] border-t border-r-orange-100 w-full py-[1rem] md:py-[1.5rem] px-3 md:px-[20px] lg:px-[50px] text-[11px] md:text-[12px] lg:text-[13px]'>
             <div className={offline ? 'flex items-center gap-1 opacity-100' : "flex items-center gap-1 opacity-40"}>

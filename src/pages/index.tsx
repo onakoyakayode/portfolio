@@ -1,11 +1,9 @@
-import { Inter } from 'next/font/google'
-import Typed from 'react-typed';
-// import CountUp from 'react-countup';
-import { useRouter } from 'next/router'
+
+import {useRouter}  from 'next/router'
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   
@@ -44,13 +42,7 @@ export default function Home() {
       <div></div>
       <div>
         <h1 className='text-2xl md:text-4xl lg:text-7xl'>
-          <Typed
-              strings={[
-                "Software Engineer, Frontend Engineer....",
-              ]}
-              typeSpeed={40}
-              className='text-[12px] md:text-[16px] lg:text-[24px] text-center'
-            />
+          Welcome to my portfolio
 
         </h1>
       </div>

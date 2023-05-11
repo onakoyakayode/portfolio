@@ -44,16 +44,9 @@ export default function Home() {
       <div></div>
       <div>
         <h1 className='text-2xl md:text-4xl lg:text-7xl'>
-          {/* <Typed 
-          type={['Software ', 'Developer', 'Engineer']} // if no backspace animation just write 1 string only (no need to use array)
-          backspace={[1, 2]} // contains the index value of the type property, if only 1 index no need to use array (will execute from the smallest index)
-          delay={1000} // delay backspace animation (in milliseconds)
-          duration={50} // duration of typing animation per character (in milliseconds). Default 100
-          cursor={'blinking-text-cursor'} // style for blinking text cursor animation. can be filled directly with css properties or class names in your css file
-          /> */}
           <Typed
               strings={[
-                "Software Engineer, Frontend Engineer and a Tech-Savy...",
+                "Software Engineer, Frontend Engineer....",
               ]}
               typeSpeed={40}
               className='text-[12px] md:text-[16px] lg:text-[24px] text-center'

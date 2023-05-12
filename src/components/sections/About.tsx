@@ -74,7 +74,7 @@ const About = () => {
             </div>
         </div>
         {/* <p className='mt-10 mb-20 text-center text-[13px] md:text-[14px] lg:text-[15px] font-serif'>I am excited to further develop my skills and create innovative solutions that make a difference.</p> */}
-        <div className='border w-[90%] border-zinc-50'></div>
+        <div className='border w-[90%] border-zinc-50 mt-10 mb-20'></div>
         <p className='mt-5 text-[11px] md:text-[12px] lg:text-[14px] font-serif'>ENOUGH TALK 🤫, TIME TO SEE WHAT I’VE BUILT.</p>
       </div>
     </div>

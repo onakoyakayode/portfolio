@@ -20,7 +20,7 @@ const About = () => {
       <div className='grid grid-cols-1 lg:grid-cols-3 items-center justify-between text-xs lg:text-sm'>
         <div className='w-full'>
             <p className='my-1 md:my-2 lg:my-5 leading-6 font-serif text-[14px] md:text-[15px] lg:text-[16px]'>Hello there! My name is Onakoya Oluwakayode and I am constantly evolving.</p>
-            <p className='my-1 md:my-2 lg:my-5 leading-6 font-serif text-[14px] md:text-[15px] lg:text-[16px]'>I am a frontend engineer with a passion for exploring the full potential of blockchain technology. My long-term goal is to become a skilled and knowledgeable blockchain engineer.</p>
+            <p className='my-1 md:my-2 lg:my-5 leading-6 font-serif text-[14px] md:text-[15px] lg:text-[16px]'>I am a Front-end engineer with a passion for exploring the full potential of blockchain technology. My long-term goal is to become a skilled and knowledgeable blockchain engineer.</p>
             <p className='my-1 md:my-2 lg:my-5 leading-6 font-serif text-[14px] md:text-[15px] lg:text-[16px]'>I specialize in designing and developing visually appealing, intuitive, and responsive user interfaces for websites and applications. I have a solid understanding of HTML, CSS, and JavaScript and TypeScript, and I am proficient in using popular frontend framework, React. </p>
             <p className='my-1 md:my-2 lg:my-5 leading-6 font-serif text-[14px] md:text-[15px] lg:text-[16px]'>My first dive into web development was in March 2020, when I decided to transition from Solar Engineer, to take time out and give this new found interest all my attention.</p>
         </div>
@@ -73,7 +73,7 @@ const About = () => {
                 <p className='text-[11px] md:text-[12px] lg:text-[13px]'>Figma</p>
             </div>
         </div>
-        <p className='mt-10 mb-20 text-center text-[13px] md:text-[14px] lg:text-[15px] font-serif'>I am excited to further develop my skills and create innovative solutions that make a difference.</p>
+        {/* <p className='mt-10 mb-20 text-center text-[13px] md:text-[14px] lg:text-[15px] font-serif'>I am excited to further develop my skills and create innovative solutions that make a difference.</p> */}
         <div className='border w-[90%] border-zinc-50'></div>
         <p className='mt-5 text-[11px] md:text-[12px] lg:text-[14px] font-serif'>ENOUGH TALK 🤫, TIME TO SEE WHAT I’VE BUILT.</p>
       </div>

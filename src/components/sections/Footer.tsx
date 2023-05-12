@@ -8,14 +8,14 @@ const Footer = () => {
       <div className='flex items-end justify-between w-full px-3 md:px-[20px] lg:px-[50px]'>
         <div className='flex flex-col w-[50%] items-start gap-6 md:gap-10'>
             <h1 className="text-[20px] md:text-[24px] lg:text-[30px]">LET&apos;S CONNECT</h1>
-            <ul className=' flex flex-col items-start md:flex md:items-center gap-3 md:gap-5 text-[#8492a6]'>
+            <ul className=' flex flex-col items-start md:flex md:flex-row md:justify-between lg:flex lg:flex-row md:items-center gap-3 md:gap-5 text-[#8492a6]'>
                 <Link target='_blank' className='cursor-pointer text-[12px] md:text-[14px] lg:text-[15px] hover:text-[#25D366] ease-in-out duration-150' href='https://wa.link/0k4ks7'>Whatsapp</Link>
                 <Link target='_blank' className='cursor-pointer text-[12px] md:text-[14px] lg:text-[15px] hover:text-[#1DA1F2] ease-in-out duration-150' href='https://twitter.com/kayodeonakoya26'>Twitter</Link>
                 <Link target='_blank' className='cursor-pointer text-[12px] md:text-[14px] lg:text-[15px] hover:text-[#cc2366] ease-in-out duration-150' href='https://www.instagram.com/onakoya_kayode'>Instagram</Link>
             </ul>
         </div>
-        <div className='flex items-center justify-center w-[50%]'>
-            <p className='text-[11px] md:text-[12px] lg:text-[13px] flex flex-col'>Developed by <Link href='https://github.com/onakoyakayode' className='text-[#f26e49] text-[14px] md:text-[18px] lg:text[22px] hover:underline'>Onakoya Kayode</Link></p>
+        <div className='flex items-center justify-end w-[50%]'>
+            <p className='text-[11px] md:text-[12px] lg:text-[13px] flex flex-col md:flex md:flex-row lg:flex lg:flex-row md:items-center md:gap-4'>Developed by <Link href='https://github.com/onakoyakayode' className='text-[#f26e49] text-[14px] md:text-[18px] lg:text[22px] hover:underline'>Onakoya Kayode</Link></p>
         </div>
       </div>
     </div>

@@ -50,10 +50,10 @@ const Contact = () => {
   return (
     <div id='contact' className='flex flex-col items-center px-3 md:px-[20px] lg:px-[50px] py-[60px] md:py-[70px] lg:py-[80px] xl:py-[100px]'>
         <h1 className='text-center text-[36px] md:text-[48px] lg:text-[60px] xl:text-[72px] mb-8 md:mb-12 lg:mb-20'>Get in touch</h1>
-        <p className='text-[11px] md:text-[12px] lg:text-[13px] text-center mb-10 md:mb-16'>Contact me if you have remote Job opportunities, Website/App development gigs, Collaborations or you just want to say hello 👋<br/>
+        <p className='text-[13px] md:text-[14px] lg:text-[15px] text-center mb-10 md:mb-16 font-serif'>Contact me if you have remote Job opportunities, Website/App development gigs, Collaborations or you just want to say hello 👋<br/>
             You can send me an <Link className='underline text-[#f26e49] cursor-pointer' href="mailto:onakoyakayode@gmail.com?subject=Hi April26">email</Link> if contact forms are&apos;t your thing.
         </p>
-        <form className='p-5 flex flex-col items-center md:p-12 rounded bg-zinc-950 w-[90%] md:w-[600px]' onSubmit={handleSubmit(onSubmit)}>
+        <form className='p-5 flex flex-col items-center md:p-12 rounded bg-zinc-950 w-[90%] md:w-[600px] font-serif' onSubmit={handleSubmit(onSubmit)}>
             <div className='flex flex-col gap-12 w-full mb-10'>
               <div className='flex flex-col gap-2 md:gap-3 w-full'>
                 <label className='text-[13px] md:text-[14px] lg:text-[15px]' htmlFor="name">Name:</label>

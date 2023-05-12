@@ -31,13 +31,13 @@ const Hero = () => {
     <div className='w-full z-0 flex flex-col justify-between items-center h-[92vh] md:h-[90vh]'>
         <div></div>
         <div className='flex flex-col justify-center'>
-            <h1 className='animate__animated animate__fadeInLeft flex flex-col items-center text-[6rem] leading-[5rem] md:text-[8rem] md:leading-[7rem] lg:text-[9rem] lg:leading-[8rem] xl:text-[12rem] xl:leading-[10rem]'>2604<span>Dev.</span></h1>
+            <h1 className='animate__animated animate__fadeInLeft animate__delay-1s flex flex-col items-center text-[6rem] leading-[5rem] md:text-[8rem] md:leading-[7rem] lg:text-[9rem] lg:leading-[8rem] xl:text-[12rem] xl:leading-[10rem]'>2604<span>Dev.</span></h1>
             {/* <Typed
             strings={['Frontend Developer, Frontend Engineer']}
             className='text-center text-[11px] md:text-[13px] mt-3'
             typeSpeed={40}
             /> */}
-            <p className='text-center text-[11px] md:text-[13px] mt-3'>Frontend Developer, Frontend Engineer</p>
+            <p className='animate__animated animate__fadeInLeft animate__delay-2s text-center text-[14px] md:text-[15px] lg:text-[16px] mt-3 md:mt-6 font-serif'>Frontend Developer, Frontend Engineer...</p>
         </div>
         <div className='flex justify-between items-center h-[7vh] md:h-[9vh] border-t border-r-orange-100 w-full py-[1rem] md:py-[1.5rem] px-3 md:px-[20px] lg:px-[50px] text-[11px] md:text-[12px] lg:text-[13px]'>
             <div className={offline ? 'flex items-center gap-1 opacity-100' : "flex items-center gap-1 opacity-40"}>

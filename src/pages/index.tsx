@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!welcomeScreen) {
-      router.push('/mainpage');
+      router.push('/portfolio');
     }
   }, [router, welcomeScreen])
 

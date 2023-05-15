@@ -41,7 +41,7 @@ export default function Home() {
     {welcomeScreen && <main className='h-screen p-10 flex flex-col justify-between items-center'>
       <div></div>
       <div>
-        <h1 className='text-[14px] md:text-[22px] lg:text-[40px] text-center'>
+        <h1 className='text-[14px] md:text-[22px] lg:text-[40px] text-center animate__animated animate__slideInUp'>
           Welcome to my portfolio
         </h1>
       </div>

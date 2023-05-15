@@ -21,6 +21,8 @@ const Hero = () => {
     useEffect(() => {
         if (time >= "08:00:00" && time <= "18:00:00") {
             setOffline(true)
+        } else if (time >= "08:00:00 AM" && time <= "06:00:00 PM"){
+            setOffline(true)
         } else {
             setOffline(false)
         }

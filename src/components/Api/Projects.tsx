@@ -2,50 +2,51 @@ const Projects =
     [
         {
             "id": "1",
-            "title": "Portfolio",
-            "text": "A play to earn nft battle game built with matter.js and react.js",
+            "title": "Ejozee",
+            "text": "A page built with HTML, CSS and Vanilla Javascript",
             "framework": "Javascript",
-            "gitgubLink": "https://github.com/onakoyakayode",
-            "projectUrl": "https://google.com"
+            "gitgubLink": "https://github.com/onakoyakayode/Ejozee-Landing",
+            "projectUrl": "https://onakoyakayode.github.io/Ejozee-Landing/"
         },
         {
-            "id": "2",
-            "title": "Wendy Code",
-            "text": "Portfolio built with Next.js, ReactJs, Bootstrap and Material Ui",
-            "framework": "NextJs",
-            "gitgubLink": "https://google.com",
-            "projectUrl": "https://google.com"
+            "id": "4",
+            "title": "madebyDlight",
+            "text": "Website built with ReactJs, Material Ui and Styled-Component",
+            "framework": "ReactJs",
+            "gitgubLink": "https://github.com/onakoyakayode/madebydlight",
+            "projectUrl": "https://madebydlight.netlify.app/"
         },
         {
             "id": "3",
-            "title": "Mr Yakubu",
-            "text": "",
+            "title": "The Sole Company",
+            "text": "Landing page built with HTML, CSS and JavaScript",
             "framework": "Javascript",
-            "gitgubLink": "https://google.com",
-            "projectUrl": "https://google.com"
-        },{
-            "id": "4",
-            "title": "Gwagwalada",
-            "text": "A portfolio website for a software developer built with React(vite) and tailwind css",
-            "framework": "ViteJs",
-            "gitgubLink": "https://google.com",
-            "projectUrl": "https://google.com"
+            "gitgubLink": "https://github.com/onakoyakayode/TSC-landing-page",
+            "projectUrl": "https://tsc-landing.netlify.app/"
+        },
+        {
+            "id": "2",
+            "title": "2604 Dev",
+            "text": "A portfolio website for a software developer built with NextJs and tailwind css",
+            "framework": "NextJS",
+            "gitgubLink": "https://github.com/onakoyakayode/portfolio",
+            "projectUrl": "https://april26.netlify.app/portfolio"
         },
         {
             "id": "5",
-            "title": "Unavailable",
-            "text": "",
-            "framework": "Vanilla Javascript",
-            "gitgubLink": "https://google.com",
-            "projectUrl": "https://google.com"
+            "title": "Kayode Portfolio",
+            "text": "Portfolio built with ReactJs, CSS and Framer-motion",
+            "framework": "ReactJs",
+            "gitgubLink": "https://github.com/onakoyakayode/kayode-portfolio",
+            "projectUrl": "https://onakoyakayode.netlify.app/"
         },
         {
             "id": "6",
-            "title": "Inec",
-            "text": "A landing page built with react and styled components (css-in-js)",
-            "framework": "Javascript",
-            "gitgubLink": "https://google.com",
-            "projectUrl": "https://google.com"
+            "title": "Kemi-Portfolio",
+            "text": "Portfolio built with ReactJs, CSS and AnimateCSS",
+            "framework": "ReactJs",
+            "gitgubLink": "https://github.com/onakoyakayode/Kemi-portfolio",
+            "projectUrl": "https://temi-kemi.netlify.app/"
         }
     ]
 
